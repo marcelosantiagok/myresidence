@@ -1,0 +1,106 @@
+ul{
+    margin: 0; padding: 0;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    
+}
+
+li a {
+    
+    text-decoration: none;
+    font-size: 20px;
+    color: snow;
+    padding: 10px;
+    
+
+}
+
+li a:hover{
+    background-color: cadetblue;
+}
+
+nav{    
+   
+
+    text-align: center;
+    padding: 25px;
+    background-color: rgb(0, 51, 102);
+    
+    
+}
+
+    
+
+input {
+    color:aquamarine
+	display:block;
+	margin-bottom:20px;
+	border:1px solid #999;
+	padding:8px;
+    border-radius:3px;
+
+}
+
+
+input:focus 
+{
+	border:1px solid #ccc;
+	outline:none;
+
+}
+
+input[type=submit] {
+	
+width:100px;
+	
+color:#FFF;
+	
+background:linear-gradient(top, #F33, #933 );
+	
+background:-webkit-linear-gradient(top, #F33, #933 );
+	
+background:-moz-linear-gradient(top, #F22, #933 );
+	
+border:1px solid #333;
+	cursor:pointer;
+
+}
+
+.subimenu 
+{
+  background-image: linear-gradient(to top, #2b2bc4, #003fb9, #0048a8, #004c91, #004e78, #02567a, #105e7b, #1f657c, #27799a, #348eb9, #47a3da, #5fb7fb);
+    width: 200px;
+    color:#FFF;
+	
+border:1px solid #ddd;
+	
+margin:10px auto;
+	
+background-color:#FFF;
+	
+padding:10px 30px;
+	
+border-radius:5px;
+
+}
+
+.menuvertical{
+display:block;
+	margin-bottom:20px;
+	border:1px solid #999;
+	padding:8px;
+    border-radius:3px;
+}
+
+footer{
+     background-color: rgb(0, 51, 102);
+    padding: 40px;
+}
+
+#colocarimagem{
+    background-image: url(building-future-construction-panel-image-1920x1000.jpg);
+    background-size: 3000;
+}
